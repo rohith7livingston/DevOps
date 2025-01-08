@@ -37,10 +37,10 @@ label
 .register
 {
     width: 500px;
-    height: 20px;
+    height: 40px;
     margin-left: 15%;
     border: 0px;
-    background: linear-gradient(to right, #54d2fc 40%, #af77ff);
+    background: linear-gradient(to right, #a9e9ff 40%, #d9beff);
 
 }
 .gender_button
@@ -54,4 +54,13 @@ input
     height: 25px;
     border: 0px;
     border-radius: 5px;
+}
+.register:hover
+{
+    transition: 4s;
+    background: linear-gradient(to right, #dbbaff 40%, #befeff);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+
 }
