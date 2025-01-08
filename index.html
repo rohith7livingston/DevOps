@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="Script.js"></script>
+</head>
+<body>
+    <div class="register_card">
+        <h1>Registration</h1>
+        <div class="divison">
+            <div class="division1">
+                <form>
+                    <label>Full Name</label><br>
+                    <input type="text" placeholder="Enter your Full Name" id="full_name"><br>
+                    <lable>Email</lable><br>
+                    <input type="email" placeholder="Enter your valid email" id="email"><br>
+                    <lable>Mobile Number</lable><br>
+                    <input type="number" placeholder="Enter phone number" id="phone">
+                </form>
+            </div>
+            <div class="division2">
+                <form>
+                    <label>Full Name</label><br>
+                    <input type="text" placeholder="Enter your Full Name" id="name"><br>
+                    <lable>Password</lable><br>
+                    <input type="password" placeholder="Enter password" id="password"><br>
+                    <lable>Confirm Password</lable><br>
+                    <input type="password" placeholder="Confirm your password" id="confirm_password">
+                </form>
+            </div>
+        </div>
+        <form class="gender_button"> 
+            <label>Gender</label>
+            <input type="radio" name="Male" value="Male"> Male
+            <input type="radio" name="Female" value="Male"> Female
+            <input type="radio" name="Prefer not to say" value=""> Prefer not to say
+        </form>
+        <button class="register" onclick="handleSubmit()">
+            Register
+        </button>
+    </div>
+    
+</body>
+</html>
