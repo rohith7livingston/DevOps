@@ -33,10 +33,13 @@
             </div>
         </div>
         <form class="gender_button"> 
-            <label>Gender</label>
-            <input type="radio" name="Male" value="Male"> Male
-            <input type="radio" name="Female" value="Male"> Female
-            <input type="radio" name="Prefer not to say" value=""> Prefer not to say
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
         </form>
         <button class="register" onclick="handleSubmit()">
             Register
