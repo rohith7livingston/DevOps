@@ -1,0 +1,19 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohith7livingston/DevOps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohith7livingston/DevOps/issues"
+  },
+  "homepage": "https://github.com/rohith7livingston/DevOps#readme",
+  "description": ""
+}
