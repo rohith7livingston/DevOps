@@ -26,3 +26,5 @@ let handleSubmit = () =>
     console.log(Name);
     
 }
+
+module.exports = { handleSubmit };
